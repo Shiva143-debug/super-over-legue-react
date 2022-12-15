@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  .container {
+    background-color: #0f172a;
+    padding: 10px;
+    background-size: cover;
+    height: 100vh;
+  }
+  .heading {
+    font-family: "Roboto";
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (width: 768px) {
+  .container {
+    background-color: #0f172a;
+    padding: 10px;
+    background-size: cover;
+    height: 100vh;
+  }
+  .heading {
+    font-family: "Roboto";
+    font-size: 82px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+}
